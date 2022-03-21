@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DareActivity6">
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="304dp"
+        android:layout_height="340dp"
+        android:text="Write a letter to your doctor describing an embarrassing rash you have, and post it on Facebook. \n\n All the best for your dare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:text="Return to Spin-Wheel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.505" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
